@@ -11,45 +11,38 @@ dependencies = [
     "torchvision>=0.26.0",
     "torchaudio>=2.11.0",
     "lightning>=2.5.0",
-
     # Series temporales de alto nivel
     "neuralforecast>=1.7.6",     # N-BEATS, N-HiTS, PatchTST, TimesNet, iTransformer, TiDE, TSMixer, Autoformer, Informer, etc.
     "statsforecast>=1.7.6",      # ARIMA, ETS, Theta, CES — línea base ultrarrápida (CPU)
     "mlforecast>=0.13.4",        # LightGBM/XGBoost/LinearReg sobre features TS
     "darts>=0.31.0",             # Interfaz unificada: clásico + neural + probabilístico
-
     # AutoML
     "optuna>=4.1.0",             # HPO bayesiano, muy fácil de integrar
     "optuna-integration[pytorch-lightning]>=4.1.0",
-
     # Datos
     "polars>=1.18.0",
     "pandas>=2.2.3",             # Compatibilidad con APIs que aún requieren pandas
     "numpy>=2.1.0",
     "pyarrow>=18.1.0",           # Backend columnar para Polars/Pandas
     "datasetsforecast>=0.0.8",   # Benchmarks listos: M3, M4, M5, ETT, Weather...
-
     # Tracking de experimentos
     "mlflow>=2.19.0",            # Logging de métricas, curvas, artefactos, ... Todo ello local
-
     # Visualización
     "plotly>=5.24.1",
     "matplotlib>=3.9.3",
     "seaborn>=0.13.2",
-
     # Utilidades ML
     "scikit-learn>=1.6.1",
     "scipy>=1.14.1",
     "einops>=0.8.0",
-
     # Configuración y reproducibilidad
     "hydra-core>=1.3.2",         # Gestión de configs YAML multi-experimento
     "omegaconf>=2.3.0",
     "python-dotenv>=1.0.1",
-
     # Notebooks
     "jupyterlab>=4.3.3",
     "ipywidgets>=8.1.5",
+    "duckdb>=1.5.2",
 ]
 
 [project.optional-dependencies]
