@@ -1,8 +1,8 @@
 import time
 from pathlib import Path
-from preprocess import load_ts_data, preprocess_pipeline
+from eda_and_basic_approach.preprocess import load_ts_data, preprocess_pipeline
 
-data_dir = Path("./data")
+data_dir = Path("../data")
 train_path = data_dir / "train.csv"
 test_path = data_dir / "test.csv"
 
